@@ -28,10 +28,10 @@ print(response)
 #Creating Snapshot using create_snapshot
 #It uses VolumeId as mandatory filed
 
-# response = ec2.create_snapshot(
-#     Description='This is my root volume snapshot.',
-#     VolumeId='vol-0a83e06d0331af24a',
-# )
+response = ec2.create_snapshot(
+    Description='This is my root volume snapshot.',
+    VolumeId='vol-0a83e06d0331af24a',
+)
 
-# print(response)
+print(response)
 
